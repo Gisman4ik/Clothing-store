@@ -14,21 +14,11 @@ export default function App() {
             <Layout>
                 <div className="app-content-wrapper">
                     <Switch>
-                        <Route exact path="/" component={Home}>
-                            <Home/>
-                        </Route>
-                        <Route path="/catalog" component={Catalog}>
-                            <Catalog />
-                        </Route>
-                        <Route path="/contacts" component={Contacts}>
-                            <Contacts />
-                        </Route>
-                        <Route path="/other" component={Other}>
-                            <Other />
-                        </Route>
-                        <Route path="/cart" component={Cart}>
-                            <Cart />
-                        </Route>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/catalog" component={Catalog}/>
+                        <Route path="/contacts" component={Contacts}/>
+                        <Route path="/other" component={Other}/>
+                        <Route path="/cart" component={Cart}/>
                     </Switch>
                 </div>
             </Layout>
