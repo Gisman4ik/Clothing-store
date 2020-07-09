@@ -1,10 +1,10 @@
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import React, {Component} from 'react'
+import React from 'react'
 
 export default function Layout () {
     return (
-        <div>
+        <div className="layout">
             <Header />
             {}
             <Footer />
