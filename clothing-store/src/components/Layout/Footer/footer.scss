@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin: 53px 0 20px 160px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+}
+
+.footer-links {
+    display: flex;
+    &__main {
+        margin: 0 129px 0 160px;
+        list-style: none;
+        &_item {
+            margin: 9px 0;
+        }
+        & a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    &__info {
+        list-style: none;
+        &_item {
+            margin: 9px 0;
+        }
+        & a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

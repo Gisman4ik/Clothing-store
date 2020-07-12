@@ -1,0 +1,64 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: white;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 53px 0 20px 160px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-links__main {
+  margin: 0 129px 0 160px;
+  list-style: none;
+}
+
+.footer-links__main_item {
+  margin: 9px 0;
+}
+
+.footer-links__main a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links__info {
+  list-style: none;
+}
+
+.footer-links__info_item {
+  margin: 9px 0;
+}
+
+.footer-links__info a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */

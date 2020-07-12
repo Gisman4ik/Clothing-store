@@ -6,6 +6,7 @@ import Catalog from './components/Catalog/Catalog';
 import Contacts from './components/Contacts/Contacts';
 import Other from './components/Other/Other';
 import Cart from './components/Cart/Cart';
+import './App.css';
 
 export default function App() {
     return (

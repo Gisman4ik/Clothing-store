@@ -1,27 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './navbar.css';
 export default function Navbar () {
     return (
         <nav className="navbar">
-            <div className="logo">
+            <div className="navbar__left-col">
+                <div className="navbar__logo">
+                    <span>dresses.</span>
+                </div>
+                <ul className="navbar__link-list">
+                    <li className="navbar__list-item navbar__home">
+                        <Link to="/">Главная</Link>
+                    </li>
+                    <li className="navbar__list-item navbar__catalog">
+                        <Link to="/catalog">Каталог</Link>
+                    </li>
+                    <li className="navbar__list-item navbar__contacts">
+                        <Link to="/contacts">Контакты</Link>
+                    </li>
+                    <li className="navbar__list-item navbar__other">
+                        <Link to="/other">Прочее</Link>
+                    </li>
+                </ul>
+                <button className="navbar__call-order">Заказать звонок</button>
             </div>
-            <ul className="link-list">
-                <li className="link-list_home">
-                    <Link to="/">Главная</Link>
-                </li>
-                <li className="link-list_catalog">
-                    <Link to="/catalog">Каталог</Link>
-                </li>
-                <li className="link-list_contacts">
-                    <Link to="/contacts">Контакты</Link>
-                </li>
-                <li className="link-list_other">
-                    <Link to="/other">Прочее</Link>
-                </li>
-            </ul>
-            <button className="call-order">Заказать звонок</button>
-            <Link className="favorite-link" to="/favorite">Сердечко</Link> 
-            <Link className="cart-link" to="/cart">Корзина</Link>
+            <div className="navbar__right-col">
+                <Link className="navbar__favorite-link" to="/favorite">Сердечко</Link> 
+                <Link className="navbar__cart-link" to="/cart">Корзина</Link>
+            </div>
         </nav>
     )
 }

@@ -1,0 +1,58 @@
+.black-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font: inherit;
+    line-height: 32px;
+
+    &__left-col {
+        display: flex;
+        margin: 0 30% 0 0;
+
+    }
+
+    &__region {
+        margin: 0 24px 0 0;
+        &_select{
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            & option {
+                background-color: white;
+                color: black;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__currency {
+        &_select{
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            & option {
+                background-color: white;
+                color: black;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__right-col {
+        display: flex;
+    }
+
+    &__account {
+        color: white;
+        margin: 0 24px 0 0;
+    }
+    
+    &__exit {
+        color: #A1A1A1;
+    }
+}

@@ -1,0 +1,60 @@
+.newseller {
+  margin: 0 160px 0 0;
+  width: 252px;
+}
+
+.newseller__headline {
+  font-weight: bold;
+}
+
+.newseller__subheadline {
+  line-height: 16px;
+}
+
+.newseller__input {
+  width: 252px;
+  height: 40px;
+}
+
+.newseller__input::-webkit-input-placeholder {
+  padding: 12px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.newseller__input:-ms-input-placeholder {
+  padding: 12px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.newseller__input::-ms-input-placeholder {
+  padding: 12px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.newseller__input::placeholder {
+  padding: 12px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.newseller__agreement {
+  font-size: 10px;
+  line-height: 11px;
+  color: #A1A1A1;
+}
+
+.newseller__agreement a {
+  color: inherit;
+}
+/*# sourceMappingURL=newseller.css.map */

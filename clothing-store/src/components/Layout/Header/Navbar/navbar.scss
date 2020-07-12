@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font: inherit;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin: 0 12px 0 0;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    &__left-col {
+        display: flex;
+        align-items: center;
+        margin: 0 17% 0 0;
+    }
+
+    &__right-col {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__link-list {
+        display: flex;
+    }
+    
+    &__list-item {
+        margin: 0 12px;
+        list-style: none;
+        & a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            line-height: 64px;
+        }
+    }
+    
+    &__call-order {
+        width: 128px;
+        height: 32px;
+        margin: 0 0 0 12px;
+        background-color: black;
+        color: white;
+        border: 0;
+        border-radius: 2px;
+        font: inherit;
+        font-weight: 500;
+    }
+}

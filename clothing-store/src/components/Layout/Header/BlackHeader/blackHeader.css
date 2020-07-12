@@ -1,0 +1,68 @@
+.black-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: black;
+  color: white;
+  font: inherit;
+  line-height: 32px;
+}
+
+.black-header__left-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30% 0 0;
+}
+
+.black-header__region {
+  margin: 0 24px 0 0;
+}
+
+.black-header__region_select {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.black-header__region_select option {
+  background-color: white;
+  color: black;
+}
+
+.black-header__region_select:focus {
+  outline: none;
+}
+
+.black-header__currency_select {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.black-header__currency_select option {
+  background-color: white;
+  color: black;
+}
+
+.black-header__currency_select:focus {
+  outline: none;
+}
+
+.black-header__right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.black-header__account {
+  color: white;
+  margin: 0 24px 0 0;
+}
+
+.black-header__exit {
+  color: #A1A1A1;
+}
+/*# sourceMappingURL=blackHeader.css.map */

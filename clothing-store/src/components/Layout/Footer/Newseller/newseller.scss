@@ -1,0 +1,32 @@
+.newseller {
+    margin: 0 160px 0 0;
+    width: 252px;
+    &__headline {
+        font-weight: bold;
+    }
+
+    &__subheadline {
+        line-height: 16px;
+    }
+
+    &__input {
+        width: 252px;
+        height: 40px;
+        &::placeholder {
+            padding: 12px;
+            font-family: Ubuntu;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    &__agreement {
+        font-size: 10px;
+        line-height: 11px;
+        color: #A1A1A1;
+        & a {
+            color: inherit;
+        }
+    }
+}

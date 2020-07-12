@@ -1,0 +1,70 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font: inherit;
+}
+
+.navbar__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 12px 0 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.navbar__left-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 17% 0 0;
+}
+
+.navbar__right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__list-item {
+  margin: 0 12px;
+  list-style: none;
+}
+
+.navbar__list-item a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+.navbar__call-order {
+  width: 128px;
+  height: 32px;
+  margin: 0 0 0 12px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  font: inherit;
+  font-weight: 500;
+}
+/*# sourceMappingURL=navbar.css.map */
