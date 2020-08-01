@@ -1,0 +1,17 @@
+.textarea-input {
+  height: 120px;
+}
+
+.textarea-input_size_small {
+  width: 288px;
+}
+
+.textarea-input_size_medium {
+  width: 356px;
+}
+
+.textarea-input_size_large {
+  width: 372px;
+  height: 80px;
+}
+/*# sourceMappingURL=styledTextareaInput.css.map */

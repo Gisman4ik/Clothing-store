@@ -1,0 +1,21 @@
+.search-input {
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.search-input_size_small {
+  width: 240px;
+}
+
+.search-input_size_medium {
+  width: 256px;
+}
+
+.search-input_size_large {
+  width: 487px;
+}
+/*# sourceMappingURL=styledSearchInput.css.map */

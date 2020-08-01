@@ -1,0 +1,19 @@
+.text-input {
+  height: 40px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+}
+
+.text-input_size_small {
+  width: 288px;
+}
+
+.text-input_size_medium {
+  width: 356px;
+}
+
+.text-input_size_large {
+  width: 372px;
+}
+/*# sourceMappingURL=styledTextInput.css.map */
