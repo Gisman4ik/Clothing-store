@@ -3,6 +3,48 @@
   background: #F2F2F2;
   border-radius: 4px;
   border: none;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.text-input::-webkit-input-placeholder {
+  color: #A1A1A1;
+}
+
+.text-input:-ms-input-placeholder {
+  color: #A1A1A1;
+}
+
+.text-input::-ms-input-placeholder {
+  color: #A1A1A1;
+}
+
+.text-input::placeholder {
+  color: #A1A1A1;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.text-input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.text-input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.text-input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.text-input:focus::placeholder {
+  color: transparent;
 }
 
 .text-input_size_small {

@@ -4,6 +4,23 @@
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 4px;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    &::placeholder {
+        color: #A1A1A1;
+    }
+    &:focus {
+        outline: none;
+        &::placeholder {
+            color: transparent;
+          }
+    }
+    &::-webkit-search-cancel-button {
+        display: none;
+    }
 }
 
 .search-input_size_small {
@@ -16,4 +33,16 @@
 
 .search-input_size_large {
     width: 487px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-left: -30px;
+    &::before {
+        content: url('../../../assets/icons/search-icon.svg')
+    }
 }

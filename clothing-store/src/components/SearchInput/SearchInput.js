@@ -12,7 +12,8 @@ export function SearchInput ({size = 'medium',className,...props}) {
                 `search-input_size_${size}`
             )}
             {...props}
-        >   
+        >
+            {props.children}   
         </StyledSearchInput>
     )
 }

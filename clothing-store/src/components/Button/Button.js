@@ -1,8 +1,10 @@
 import React from 'react';
 import { StyledButton } from './StyledButton/StyledButton';
+import {Icon} from '../Icon/Icon'
 var classNames = require('classnames');
 
-export function Button ({className, color = 'white', size = 'medium', appearence = 'default', ...props}) {
+export function Button ({className, color = 'white', size = 'content', appearence = 'default', rightIcon, leftIcon, ...props}) {
+    console.log(rightIcon, 'lel');
     return (
         <StyledButton
             className = {classNames(
@@ -14,6 +16,9 @@ export function Button ({className, color = 'white', size = 'medium', appearence
             )}
             {...props}
         >
+            {leftIcon && (<Icon src={leftIcon}></Icon>)}
+            {props.children}
+            {rightIcon && (<Icon src={rightIcon}></Icon>)}
         </StyledButton>
     )
 }

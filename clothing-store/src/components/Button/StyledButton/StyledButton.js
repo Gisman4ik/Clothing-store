@@ -1,8 +1,8 @@
 import React from 'react';
 import './styledbutton.css';
 
-export function StyledButton ({className}) {
+export function StyledButton ({className,...props}) {
     return (
-        <button className = {className}></button>
+        <button className = {className}>{props.children}</button>
     )
 } 

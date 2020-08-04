@@ -1,5 +1,22 @@
 .textarea-input {
     height: 120px;
+    padding: 16px;
+    box-sizing: border-box;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    &::placeholder {
+        color: #A1A1A1;
+    }
+    &:focus {
+        outline: none;
+        &::placeholder {
+            color: transparent;
+          }
+    }
 }
 
 .textarea-input_size_small {

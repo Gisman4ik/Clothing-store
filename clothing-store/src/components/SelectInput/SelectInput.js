@@ -12,7 +12,8 @@ export function SelectInput ({size = 'medium',className,...props}) {
                 `select-input_size_${size}`
             )}
             {...props}
-        >   
+        >
+            {props.children}   
         </StyledSelectInput>
     )
 }

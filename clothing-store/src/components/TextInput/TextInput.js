@@ -12,7 +12,8 @@ export function TextInput ({size = 'medium',className,...props}) {
                 `text-input_size_${size}`
             )}
             {...props}
-        >   
+        >
+            {props.children}   
         </StyledTextInput>
     )
 }

@@ -1,26 +1,49 @@
 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .button_color_blue {
   background: #2F80ED;
+  color: white;
+}
+
+.button_color_blue img {
+  -webkit-filter: brightness(3);
+          filter: brightness(3);
 }
 
 .button_color_white {
   background: #FFFFFF;
   opacity: 0.8;
+  color: black;
+}
+
+.button_color_dirty-white {
+  background: #F2F2F2;
 }
 
 .button_color_black {
@@ -30,15 +53,63 @@
 .button_size_small {
   width: 40px;
   height: 40px;
+  font-size: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.button_size_medium {
-  width: 158px;
-  height: 24px;
+.button_size_mobile-addcart-b {
+  width: 224px;
+  height: 56px;
+  font-size: 15px;
 }
 
-.button_size_large {
+.button_size_tablet-addcart-b {
+  width: 272px;
+  height: 56px;
+}
+
+.button_size_desktop-addcart-b {
+  width: 352px;
+  height: 56px;
+}
+
+.button_size_mobile-addcart-w {
+  width: 288px;
+  height: 56px;
+  font-size: 15px;
+}
+
+.button_size_tablet-addcart-w {
+  width: 304px;
+  height: 56px;
+}
+
+.button_size_desktop-addcart-w {
   width: 320px;
   height: 56px;
+}
+
+.button_size_mobile_review {
+  width: 202px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.button_size_desktop_review {
+  width: 288px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.button_size_tablet_filter {
+  width: 201px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.button_size_tablet_filter {
+  font-size: 14px;
 }
 /*# sourceMappingURL=styledbutton.css.map */

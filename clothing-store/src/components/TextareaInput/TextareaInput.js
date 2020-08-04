@@ -12,7 +12,8 @@ export function TextareaInput ({size = 'medium',className,...props}) {
                 `textarea-input_size_${size}`
             )}
             {...props}
-        >   
+        >
+            {props.children}
         </StyledTextareaInput>
     )
 }
